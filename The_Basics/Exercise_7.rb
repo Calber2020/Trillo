@@ -1,1 +1,0 @@
-Someone forgot to close the bracket with } prior to calling a hash.
