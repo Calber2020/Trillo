@@ -223,7 +223,7 @@ header {
     width: 55px;
     text-align: center;
     padding: 5px;
-    float: left;
+    /* float: left; */
     font-size: 150%;
     margin-right: 25px;
 }
@@ -499,7 +499,16 @@ footer p {
 }
 
 
+/* ------------------------------ */
+/* Animations */
+/* ------------------------------ */
 
+.js--wp-1 {
+    opacity: 0;
+}
+.js--wp-1.animated {
+    opacity: 1;
+}
 
 /* ----- HEADINGS -----*/
 
@@ -615,3 +624,4 @@ input[type=submit] {
 .btn-ghost:active {
     border: 1px solid #cf6d17;
     color: #fff;
+}

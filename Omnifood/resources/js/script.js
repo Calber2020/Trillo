@@ -10,7 +10,7 @@ $(document).ready(function() {
       offset: '60px;'
     });
 
-    
+
 
     /* Scroll to navigation */
     $('.js--scroll-to-plans').click(function () {
@@ -58,4 +58,14 @@ $(document).ready(function() {
       }
     }
   });
+
+
+  /* Animations on Scroll */
+  $('.js--wp-1').waypoint(function(direction) {
+      $('.js--wp-1').addClass('animated fadeIn');
+  }, {
+      offset: '50%'
+  });
+
+
 });
