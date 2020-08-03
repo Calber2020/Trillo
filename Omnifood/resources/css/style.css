@@ -503,13 +503,18 @@ footer p {
 /* Animations */
 /* ------------------------------ */
 
-.js--wp-1 {
+.js--wp-1,
+.js--wp-2,
+.js--wp-3 {
     opacity: 0;
-}
-.js--wp-1.animated {
-    opacity: 1;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
 }
 
+.js--wp-4 {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
 /* ----- HEADINGS -----*/
 
 h1,
