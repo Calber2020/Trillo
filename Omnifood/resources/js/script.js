@@ -141,5 +141,19 @@ $(document).ready(function() {
 
     });
 
+    $('.js--header').waypoint(
+      (direction) => {
+        if (direction === 'up') {
+          $('.js--wp-1').removeClass('animate__animated animate__fadeIn');
+          $('.js--wp-2').removeClass('animate__animated animate__fadeInLeft');
+          $('.js--wp-3').removeClass('animate__animated animate__fadeIn');
+          $('.js--wp-4').removeClass('animate__animated animate__bounceIn');
+        }
+      },
+      {
+        offset: '-25%',
+      }
+    );
+
 
 });
