@@ -141,6 +141,7 @@ $(document).ready(function() {
 
     });
 
+    // Resets animations when returned to top of page
     $('.js--header').waypoint(
       (direction) => {
         if (direction === 'up') {
