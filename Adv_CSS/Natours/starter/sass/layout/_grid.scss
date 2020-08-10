@@ -8,6 +8,7 @@
         margin-bottom: $gutter-vertical;
     }
 
+    // Fixes height being 0
     @include clearfix
 
     [class^="col-"] {
